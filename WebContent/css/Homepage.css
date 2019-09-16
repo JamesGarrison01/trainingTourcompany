@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+header{
+	overflow: hidden;
+	background-color: gray;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: #f5f5f5;}
+
+.linksClass {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.linksClass a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.linksClass a:hover{
+  background-color: red;
+}
